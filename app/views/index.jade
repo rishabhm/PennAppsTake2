@@ -1,7 +1,27 @@
 include ./includes/header
 body.home
 	h1 DumbSound
-	h3 Still carrying one of those old nokias around? Well, it's time
-	section.highlight
-		span
-			| 217-215-2362
+	h3 Still carrying one of those old nokias around? Well, it's time.
+	.wrapper
+		section.highlight.strip.first
+			span.text.filled
+				| SMS
+		br
+		section.highlight.strip
+			span.text.regular
+				| Youtube/ Soundcloud/ Playlist
+		section.highlight.strip
+			span.text.filled
+				| &lt;Favorite Song&gt;
+		br
+		section.highlight.strip
+			span.text.regular
+				| 217-215-2362
+		br
+		//- section.highlight.strip.icon
+		//- 	.icon.music.filled
+	//- section.details
+	//- 	p
+	//- 		| Listen to any song in the world; <br> anytime, anywhere <br> without <br> an internet connection.
+	//- 	h3 Search for music on YouTube & SoundCloud
+	//- 	h3 Automatic Playlists Instantly
