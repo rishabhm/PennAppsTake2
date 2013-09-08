@@ -1,5 +1,5 @@
 {
-	"name" 			: "Custom Bootstrap",
+	"name" 			: "PennHack",
 	"description" 	: "Custom Bootstrappable Base for future projects",
 	"version" 		: "0.0.1",
 	"dependencies" : {

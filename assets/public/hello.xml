@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say>Hello Curious George</Say>
+    <Play>http://158.130.152.150:3000/adele.mp3</Play>
+</Response>
