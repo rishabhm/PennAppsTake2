@@ -29,6 +29,9 @@ module.exports = function(params) {
 	app.get('/main/:url', main.main);
 	app.get('/send', main.playSong);
 	app.get('/check', main.checkMessages);
+	app.get('/cloud', main.cloud);
+	app.post('/twiml', main.twiml);
+	app.post('/home', main.index);
 
  	//__FINALLY IF THERE IS NO KNOWN URL INCL. '/' THEN GO TO HOME
  	app.get('/*', main.index);
